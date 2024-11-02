@@ -1,0 +1,51 @@
+Testing find testdir
+testdir/test2
+testdir/test1
+testdir/mintest
+testdir/dir3
+testdir/dir3/test8
+testdir/dir3/test7
+testdir/dir1
+testdir/dir1/dir2
+testdir/dir1/dir2/test5
+testdir/dir1/test3
+testdir/dir1/test4
+
+Testing find testdir name 
+testdir/dir1/dir2/test5
+
+Testing find files made over 10 minutes ago
+testdir/test2
+testdir/test1
+testdir/mintest
+testdir/dir3
+testdir/dir3/test8
+testdir/dir3/test7
+testdir/dir1
+testdir/dir1/dir2
+testdir/dir1/dir2/test5
+testdir/dir1/test3
+testdir/dir1/test4
+
+Testing find test2 using inum
+testdir/test2
+
+adding new file test9
+Testing find testdir -m -10
+testdir/test9
+
+Testing remove test9
+
+Displaying files to see if file was removed
+testdir/test2
+testdir/test1
+testdir/mintest
+testdir/dir3
+testdir/dir3/test8
+testdir/dir3/test7
+testdir/dir1
+testdir/dir1/dir2
+testdir/dir1/dir2/test5
+testdir/dir1/test3
+testdir/dir1/test4
+
